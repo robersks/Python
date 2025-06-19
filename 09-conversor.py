@@ -2,9 +2,8 @@
 
 
 temperatura = float(input("Digite la temperatura: "))
-escala = str(input("Es Fahrenheit(F) o Celcius(C)?: "))
+escala = str(input("Es Fahrenheit(F) o Celcius(C)?: ")).upper() # leer y Convertir a mayusculas
 
-escala  = escala.upper() # Convertir a mayusculas
 
 if escala == "F":
     temperatura = (temperatura-32)/1.8
