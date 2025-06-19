@@ -30,3 +30,5 @@ texto_4 = '''What is Lorem Ipsum?
     
 var_int = 40        #Número entero
 var_float = 40.89   #Númro con decimal
+
+print (texto_1)
