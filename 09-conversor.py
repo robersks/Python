@@ -1,7 +1,7 @@
 # Ejercicio convertir temp 
 
 
-temperatura = int(input("Digite la temperatura: "))
+temperatura = float(input("Digite la temperatura: "))
 escala = str(input("Es Fahrenheit(F) o Celcius(C)?: "))
 
 escala  = escala.upper() # Convertir a mayusculas
