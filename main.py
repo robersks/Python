@@ -11,3 +11,4 @@ def clear():
 
 clear()
 
+x = ['Rober','Fabian']
